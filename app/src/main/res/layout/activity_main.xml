@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="My Dashboard"
+           android:fontFamily="casual"
+           android:textSize="30sp"
+           android:textColor="@color/cardview_light_background"
+           android:layout_margin="20dp" ></TextView>
+
+       <GridLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:rowCount="5"
+           android:columnCount="2"
+           android:layout_margin="5dp"
+           android:alignmentMode="alignMargins"
+           android:layout_gravity="center_horizontal"
+           android:columnOrderPreserved="false">
+
+           <androidx.cardview.widget.CardView
+               android:layout_height="170dp"
+               android:layout_width="170dp"
+               app:cardCornerRadius="12dp"
+               app:cardElevation="5dp"
+               app:cardBackgroundColor="@color/gray"
+               android:layout_margin="10dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical"
+                   android:gravity="center">
+                   <ImageView
+                       android:layout_width="40dp"
+                       android:layout_height="40dp"
+                       android:src="@drawable/google"
+                       android:layout_marginTop="12dp"/>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Google it"
+                       android:textColor="@color/white"
+                       android:textSize="25sp"
+                       android:layout_marginTop="20dp"></TextView>
+               </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+
+           <androidx.cardview.widget.CardView
+               android:layout_height="170dp"
+               android:layout_width="170dp"
+               app:cardCornerRadius="12dp"
+               app:cardElevation="5dp"
+               app:cardBackgroundColor="@color/gray"
+               android:layout_margin="10dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical"
+                   android:gravity="center">
+                   <ImageView
+                       android:layout_width="40dp"
+                       android:layout_height="40dp"
+                       android:src="@drawable/glasses"
+                       android:layout_marginTop="12dp"/>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Wear glasses"
+                       android:textColor="@color/white"
+                       android:textSize="25sp"
+                       android:layout_marginTop="20dp"></TextView>
+               </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+           <androidx.cardview.widget.CardView
+               android:layout_height="170dp"
+               android:layout_width="170dp"
+               app:cardCornerRadius="12dp"
+               app:cardElevation="5dp"
+               app:cardBackgroundColor="@color/gray"
+               android:layout_margin="10dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical"
+                   android:gravity="center">
+                   <ImageView
+                       android:layout_width="40dp"
+                       android:layout_height="40dp"
+                       android:src="@drawable/monitor"
+                       android:layout_marginTop="12dp"/>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Open PC"
+                       android:textColor="@color/white"
+                       android:textSize="25sp"
+                       android:layout_marginTop="20dp"></TextView>
+               </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+           <androidx.cardview.widget.CardView
+               android:layout_height="170dp"
+               android:layout_width="170dp"
+               app:cardCornerRadius="12dp"
+               app:cardElevation="5dp"
+               app:cardBackgroundColor="@color/gray"
+               android:layout_margin="10dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical"
+                   android:gravity="center">
+                   <ImageView
+                       android:layout_width="40dp"
+                       android:layout_height="40dp"
+                       android:src="@drawable/phone"
+                       android:layout_marginTop="12dp"/>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Call Me"
+                       android:textColor="@color/white"
+                       android:textSize="25sp"
+                       android:layout_marginTop="20dp"></TextView>
+               </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+           <androidx.cardview.widget.CardView
+               android:layout_height="170dp"
+               android:layout_width="170dp"
+               app:cardCornerRadius="12dp"
+               app:cardElevation="5dp"
+               app:cardBackgroundColor="@color/gray"
+               android:layout_margin="10dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical"
+                   android:gravity="center">
+                   <ImageView
+                       android:layout_width="40dp"
+                       android:layout_height="40dp"
+                       android:src="@drawable/whatsapp"
+                       android:layout_marginTop="12dp"/>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Write on WhatsApp"
+                       android:textColor="@color/white"
+                       android:textSize="25sp"
+                       android:layout_marginTop="20dp"></TextView>
+               </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+           <androidx.cardview.widget.CardView
+               android:layout_height="170dp"
+               android:layout_width="170dp"
+               app:cardCornerRadius="12dp"
+               app:cardElevation="5dp"
+               app:cardBackgroundColor="@color/gray"
+               android:layout_margin="10dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical"
+                   android:gravity="center">
+                   <ImageView
+                       android:layout_width="40dp"
+                       android:layout_height="40dp"
+                       android:src="@drawable/comment"
+                       android:layout_marginTop="12dp"/>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Comment"
+                       android:textColor="@color/white"
+                       android:textSize="25sp"
+                       android:layout_marginTop="20dp"></TextView>
+               </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+           <androidx.cardview.widget.CardView
+               android:layout_height="170dp"
+               android:layout_width="170dp"
+               app:cardCornerRadius="12dp"
+               app:cardElevation="5dp"
+               app:cardBackgroundColor="@color/gray"
+               android:layout_margin="10dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical"
+                   android:gravity="center">
+                   <ImageView
+                       android:layout_width="40dp"
+                       android:layout_height="40dp"
+                       android:src="@drawable/play"
+                       android:layout_marginTop="12dp"/>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Play"
+                       android:textColor="@color/white"
+                       android:textSize="25sp"
+                       android:layout_marginTop="20dp"></TextView>
+               </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+           <androidx.cardview.widget.CardView
+               android:layout_height="170dp"
+               android:layout_width="170dp"
+               app:cardCornerRadius="12dp"
+               app:cardElevation="5dp"
+               app:cardBackgroundColor="@color/gray"
+               android:layout_margin="10dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical"
+                   android:gravity="center">
+                   <ImageView
+                       android:layout_width="40dp"
+                       android:layout_height="40dp"
+                       android:src="@drawable/watchexportvariant"
+                       android:layout_marginTop="12dp"/>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Connect it with watch"
+                       android:textColor="@color/white"
+                       android:textSize="25sp"
+                       android:layout_marginTop="20dp"></TextView>
+               </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+
+
+       </GridLayout>
+
+
+
+   </LinearLayout>
+</ScrollView>
